@@ -1,5 +1,5 @@
 {% set name = "aws-sdk-core" %}
-{% set version = "2.11.348" %}
+{% set version = "3.1.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 1ab6a7659f3c1e3799fa1958d7b4c62340cd7fd0b0d5dced0343462f005d1010
+  sha256: 10feedf34d1b2f376536e5ce715e8b7de5a16d34a55c6c395fce0816b73f143a
 
 build:
   noarch: generic
